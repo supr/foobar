@@ -29,7 +29,7 @@ void print_vector(std::vector<int>& arr) {
 
 int main(int argc, char* argv[]) {
 
-        int size = 100;
+        unsigned int size = 100;
 
         if (argc > 1) {
                 size = std::atoi(argv[1]);
