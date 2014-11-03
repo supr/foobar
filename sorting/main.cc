@@ -12,7 +12,7 @@
                 oper;                                                        \
                 auto data_end = std::chrono::high_resolution_clock::now();   \
                 std::cout                                                    \
-                    << # str " Took: "                                              \
+                    << #str " Took: "                                        \
                     << std::chrono::duration_cast<std::chrono::nanoseconds>( \
                            data_end - data_start).count() << "ns"            \
                     << std::endl;                                            \
